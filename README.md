@@ -1,2 +1,2 @@
 # Python
-# Recording process of study
+# Recording process of studyign python
