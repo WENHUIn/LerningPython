@@ -1,0 +1,43 @@
+Russian Federation,142.5
+Germany,81.0
+United Kingdom,66.7
+France,66.3
+Italy,61.7
+Spain,47.7
+Ukraine,44.3
+Poland,38.3
+Romania,21.7
+Netherlands,16.59
+Greece,11.8
+Portugal,10.9
+Czech Republic,10.6
+Belgium,10.4
+Hungary,10.0
+Sweden,9.7
+Belarus,9.6
+Austria,8.2
+Switzerland,8.1
+Serbia,7.2
+Bulgaria,6.9
+Denmark,5.6
+Slovakia,5.4
+Finland,5.3
+Norway,5.1
+Ireland,4.8
+Croatia,4.5
+Bosnia and Herzegovina,3.9
+Republic of Moldova,3.6
+Lithuania,3.5
+Albania,3.0
+Latvia,2.2
+The former Yugoslav Republic of Macedonia,2.1
+Slovenia,2.0
+Estonia,1.3
+Montenegro,0.65
+Luxembourg,0.52
+Malta,0.41
+Iceland,0.32
+Andorra,0.085
+Liechtenstein,0.037
+San Marino,0.033
+Monaco,0.031
