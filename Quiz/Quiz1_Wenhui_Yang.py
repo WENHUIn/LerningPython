@@ -6,12 +6,17 @@
 # Wenhui Yang
 # 1/31/2019
 """
+"""
+更新于2020/6/20 想想当初的自己还真是有点蠢鸭哈哈哈
+"""
+#%%
 #generate a number
-x = "123.45"
+x = str(eval(input("Enter a number: ")))
 #print 3 digits to the left of decimal point
-print (x[0:3])
+decimal = x.rfind('.')
+print ("left 3 digits: " + x[decimal-3:decimal])
 #print 2 digits to the right of decimal point 
-print (x[4:])
+print ("right 3 digits: "+ x[decimal+1:decimal+3])
 
 """
 # replace a word
@@ -19,10 +24,10 @@ print (x[4:])
 # Wenhui Yang
 # 1/31/2019
 """
+#%%
 #generate a sentence
-sentence = "How are you ?"
-#new word
-new_word = "Who"
-#replace new_word to "How"
-print (sentence.replace("How","Who"))
-
+sentence = input("enter a sentence")
+sl = sentence.split(' ')
+sl[0] = "who"
+newsent = (' ').join(sl)
+print(newsent)
