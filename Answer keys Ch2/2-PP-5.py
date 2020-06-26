@@ -1,0 +1,15 @@
+## Describe the distribution in a stock portfolio.
+spy = float(input("Enter amount invested in SPY: "))
+qqq = float(input("Enter amount invested in QQQ: "))
+eem = float(input("Enter amount invested in EEM: "))
+vxx = float(input("Enter amount invested in VXX: "))
+total = spy + qqq + eem + vxx
+print()
+print("{0:6s}{1:>12s}".format("ETF", "PERCENTAGE"))
+print("-" * 18)
+print("{0:6s}{1:10.2%}".format("SPY", spy / total))
+print("{0:6s}{1:10.2%}".format("QQQ", qqq / total))
+print("{0:6s}{1:10.2%}".format("EEM", eem / total))
+print("{0:6s}{1:10.2%}".format("VXX", vxx / total))
+print()
+print("{0:s}: ${1:,.2f}".format("TOTAL AMOUNT INVESTED", total))
