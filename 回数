@@ -1,3 +1,6 @@
+回数
+-------------
+
 # 回数是指从左向右读和从右向左读都是一样的数，例如12321，909。请利用filter()筛选出回数：
 
 # 判断是否为回数
@@ -13,3 +16,9 @@ def is_palindrome(n):
 
 # 使用filter函数判断200以内的数谁是回数
 list(filter(is_palindrome, range(1, 200)))
+
+
+匿名函数 lambda
+------------------------------
+# 筛选出奇数
+L = list(filter(lambda n: n % 2 == 1, range(1, 20)))
